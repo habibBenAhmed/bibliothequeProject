@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-10-27T23:55:01</date>
+  <millis>1445990101379</millis>
+  <sequence>0</sequence>
+  <logger>ma.insea.bibliotheque.addLivre.AddLivreController</logger>
+  <level>SEVERE</level>
+  <class>ma.insea.bibliotheque.addLivre.AddLivreController$1</class>
+  <method>run</method>
+  <thread>20</thread>
+  <exception>
+    <message>com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Duplicate entry 'sf' for key 'PRIMARY'</message>
+    <frame>
+      <class>com.mysql.jdbc.SQLError</class>
+      <method>createSQLException</method>
+      <line>931</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.MysqlIO</class>
+      <method>checkErrorPacket</method>
+      <line>2985</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.MysqlIO</class>
+      <method>sendCommand</method>
+      <line>1631</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.MysqlIO</class>
+      <method>sqlQueryDirect</method>
+      <line>1723</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.Connection</class>
+      <method>execSQL</method>
+      <line>3283</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.PreparedStatement</class>
+      <method>executeInternal</method>
+      <line>1332</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.PreparedStatement</class>
+      <method>executeUpdate</method>
+      <line>1604</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.PreparedStatement</class>
+      <method>executeUpdate</method>
+      <line>1519</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.PreparedStatement</class>
+      <method>executeUpdate</method>
+      <line>1504</line>
+    </frame>
+    <frame>
+      <class>ma.insea.bibliotheque.addLivre.AddLivreController$1</class>
+      <method>run</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+</log>
